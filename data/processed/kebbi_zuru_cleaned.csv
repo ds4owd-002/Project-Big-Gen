@@ -1,0 +1,126 @@
+id,name,water_type,lga,pump_type,survey,lat,long,pump_category,facility_label,valid_location
+QMVGI,Water Point,Borehole,kebbi_zuru,Hand Pump,cec1f8e5-44f7-44c0-bc77-82879e2d9825,11.48131371,5.19336324,NA,Water Point - Borehole,TRUE
+LGZDU,Water Point,Unimproved Well,kebbi_zuru,Manual,c213c889-670b-4ef7-9894-3e91450452de,11.34453216,5.26253448,NA,Water Point - Unimproved Well,TRUE
+XIOJU,Water Point,Borehole,kebbi_zuru,Hand Pump,c5aaf20f-f518-49a3-a52a-578283c5b779,11.49676172,5.43898396,NA,Water Point - Borehole,TRUE
+MHLFC,Water Point,Borehole,kebbi_zuru,Hand Pump,d1a54cb9-0111-43df-bea1-6df651291a9f,11.35112162,5.22989217,NA,Water Point - Borehole,TRUE
+YDAPE,Water Point,Borehole,kebbi_zuru,Hand Pump,7bc30278-9c15-45bf-8393-1c4b7a1dbe01,11.28607661,5.2334184,NA,Water Point - Borehole,TRUE
+HQPRK,Water Point,Borehole,kebbi_zuru,Hand Pump,d91d7928-cd74-4b5d-8f15-29ec0603fcdf,11.38160521,5.23779042,NA,Water Point - Borehole,TRUE
+ZSPOP,Water Point,Borehole,kebbi_zuru,Hand Pump,063c2eab-c47c-4645-b4ee-e4208c28fd98,11.5478432178497,5.35629630088806,NA,Water Point - Borehole,TRUE
+ALEVE,Water Point,Borehole,kebbi_zuru,Hand Pump,93e0b4be-2217-4ce5-ad24-8d9858d379fa,11.40522594,5.0039192,NA,Water Point - Borehole,TRUE
+WBYFK,Water Point,Borehole,kebbi_zuru,Hand Pump,f80f9f37-f192-4595-8991-52fb7a86d22e,11.35961586,5.25703774,NA,Water Point - Borehole,TRUE
+ITYLD,Water Point,Unimproved Well,kebbi_zuru,Manual,507f1548-c34f-4acd-8fbf-9ea656e6586e,11.31425874,5.20457855,NA,Water Point - Unimproved Well,TRUE
+TUEOA,Water Point,Unimproved Well,kebbi_zuru,Manual,f7bb0806-d5b1-4603-84c6-32d2e37ed476,11.43502802,5.24100647,NA,Water Point - Unimproved Well,TRUE
+RKZAG,Water Point,Borehole,kebbi_zuru,Hand Pump,8c83b00a-dc63-4f5e-a3a8-94a1f11ee379,11.39685857,5.24069181,NA,Water Point - Borehole,TRUE
+OPSMH,Water Point,Borehole,kebbi_zuru,Diesel,d6b06e43-f948-497e-a8e2-5c145f126338,11.43185217,5.26103588,NA,Water Point - Borehole,TRUE
+QRBDR,Water Point,Borehole,kebbi_zuru,Hand Pump,280c7078-1c69-4776-84bf-65e5c8328c62,11.41850858,5.24096886,NA,Water Point - Borehole,TRUE
+HMYVH,Water Point,Borehole,kebbi_zuru,Hand Pump,ebbee47f-9edc-4c9c-846e-14860b9d8d15,11.31966445,5.22855989,NA,Water Point - Borehole,TRUE
+GMNFY,Water Point,Unimproved Well,kebbi_zuru,Manual,44898424-b423-445c-8e36-61b5efe61bb4,11.36860896,5.26059876,NA,Water Point - Unimproved Well,TRUE
+ZUOMY,Water Point,Borehole,kebbi_zuru,Diesel,30c54665-05e5-4fdd-b389-6fc6bab79177,11.38172335,5.23773186,NA,Water Point - Borehole,TRUE
+GINCM,Water Point,Borehole,kebbi_zuru,Diesel,efea4d35-2995-45ff-9f22-9f93fd26bec3,11.43843051,5.23661253,NA,Water Point - Borehole,TRUE
+FPCOR,Water Point,Borehole,kebbi_zuru,Hand Pump,900276b9-fb02-4bed-a303-20acdcf4406b,11.45068243,5.23242277,NA,Water Point - Borehole,TRUE
+XQNMA,Water Point,Unimproved Well,kebbi_zuru,Manual,139d64cb-9435-4fc1-96cb-ec279993e1fe,11.23742546,5.23847943,NA,Water Point - Unimproved Well,TRUE
+WMIZJ,Water Point,Borehole,kebbi_zuru,Hand Pump,e4dd5a41-439a-4042-adb3-3c8310a86b67,11.5438038110733,5.31462013721466,NA,Water Point - Borehole,TRUE
+YPLFC,Water Point,Unimproved Well,kebbi_zuru,Manual,73ba6c65-b847-44f4-acb1-c0cfbc354671,11.4941239356995,5.18459737300873,NA,Water Point - Unimproved Well,TRUE
+DHIIY,Water Point,Borehole,kebbi_zuru,Hand Pump,995e62f1-4798-4a8b-ae9a-28b1fb494242,11.54481953,5.48995736,NA,Water Point - Borehole,TRUE
+PHXCK,Water Point,Borehole,kebbi_zuru,Solar,7e3adf65-e505-492a-bd0e-4bf3ed7e82e0,11.44147124,5.23961602,NA,Water Point - Borehole,TRUE
+LSRAX,Water Point,Borehole,kebbi_zuru,Hand Pump,9e13cebb-605d-4fc7-914b-354d2f58d8fc,11.32574659,5.27421163,NA,Water Point - Borehole,TRUE
+FXYSZ,Water Point,Borehole,kebbi_zuru,Diesel,43bb3e17-b810-4eed-981e-1aa167283cb5,11.44670322,5.23854864,NA,Water Point - Borehole,TRUE
+KIMUA,Water Point,Borehole,kebbi_zuru,Hand Pump,da206297-7850-43ac-a06e-f8ad7def8cdd,11.37710421,5.25009674,NA,Water Point - Borehole,TRUE
+JBTMO,Water Point,Borehole,kebbi_zuru,Solar,7653ec07-aaad-4d02-b3c0-8bf4081abdc8,11.44731396,5.23851524,NA,Water Point - Borehole,TRUE
+KNUPM,Water Point,Unimproved Well,kebbi_zuru,Manual,874dd8b7-487a-4090-9d76-d86f0bdd66f3,11.40196672,5.22369835,NA,Water Point - Unimproved Well,TRUE
+GTLGH,Water Point,Unimproved Well,kebbi_zuru,Manual,7c01aac9-744f-406f-bfea-371980c0bd2d,11.28519912,5.15416463,NA,Water Point - Unimproved Well,TRUE
+GHQMQ,Water Point,Borehole,kebbi_zuru,Diesel,99da1a03-7db6-4bc0-903f-9154aa639231,11.44534738,5.23178635,NA,Water Point - Borehole,TRUE
+LTTHR,Water Point,Borehole,kebbi_zuru,Hand Pump,f718c4f6-0a84-4e33-acc9-7fd63ee2b134,11.44721076,5.23451398,NA,Water Point - Borehole,TRUE
+OSGGH,Water Point,Unimproved Well,kebbi_zuru,Manual,08860b40-437b-449f-b227-d061d489ee9d,11.28148894,5.19418119,NA,Water Point - Unimproved Well,TRUE
+BGXLP,Water Point,Borehole,kebbi_zuru,Hand Pump,665ca708-9bec-4833-ac71-a46c1b9dc570,11.42833735,5.25379972,NA,Water Point - Borehole,TRUE
+WOMCJ,Water Point,Borehole,kebbi_zuru,Diesel,1ed20d1c-487d-4d24-b672-e2554406f7c8,11.23902769,5.18153226,NA,Water Point - Borehole,TRUE
+CYUJF,Water Point,Borehole,kebbi_zuru,Hand Pump,5e43700b-4a56-4414-9310-66c3e1cb8e24,11.49376588,5.21412432,NA,Water Point - Borehole,TRUE
+AFAFZ,Water Point,Unimproved Well,kebbi_zuru,Manual,7610b2e8-3175-461f-8b45-d9cd9cd2dc06,11.41872711,5.24095609,NA,Water Point - Unimproved Well,TRUE
+XJWQO,Water Point,Borehole,kebbi_zuru,Hand Pump,058d49b2-0beb-44bf-a9b6-7e2714b7d74f,11.25163957,5.20558214,NA,Water Point - Borehole,TRUE
+VQHAE,Water Point,Borehole,kebbi_zuru,Diesel,32c7ee78-4f88-4429-bc2a-f09ad54c0f64,11.43081535,5.23539285,NA,Water Point - Borehole,TRUE
+BUUBT,Water Point,Borehole,kebbi_zuru,Hand Pump,fc4aaf03-4096-4005-b3e0-2aa4af212861,11.4891604,5.43866579,NA,Water Point - Borehole,TRUE
+CTUTQ,Water Point,Unimproved Well,kebbi_zuru,Manual,4540124b-d89c-4bee-9d5e-49954855ac1e,11.5267771482468,5.17529547214508,NA,Water Point - Unimproved Well,TRUE
+MDFDI,Water Point,Borehole,kebbi_zuru,Hand Pump,370435f7-46ce-4683-a0cd-9b0f33bc7cf8,11.49979325,5.25716473,NA,Water Point - Borehole,TRUE
+ITPQH,Water Point,Borehole,kebbi_zuru,Diesel,35156aa7-9dfc-4b52-ae14-3cdfabcefe4b,11.42916106,5.25807436,NA,Water Point - Borehole,TRUE
+MAZEM,Water Point,Borehole,kebbi_zuru,Hand Pump,1dbfc732-31c9-4ea1-93dc-f2527b3ee168,11.48815222,5.42909865,NA,Water Point - Borehole,TRUE
+FMLGR,Water Point,Borehole,kebbi_zuru,Diesel,e6ed6631-9716-47bf-acc1-62cf7c4c3c30,11.44886117,5.22860179,NA,Water Point - Borehole,TRUE
+YSMVK,Water Point,Borehole,kebbi_zuru,Diesel,3297f497-3925-486b-a61d-1a206be8040e,11.43649082,5.22932415,NA,Water Point - Borehole,TRUE
+FTKTM,Water Point,Borehole,kebbi_zuru,Hand Pump,98b4fd53-ccd3-4cb6-9b1e-9d5bc17f1544,11.37213912,5.23377742,NA,Water Point - Borehole,TRUE
+OBXOE,Water Point,Borehole,kebbi_zuru,Diesel,48a26b73-30e5-4be8-80fb-48e036f3d906,11.42822815,5.25363393,NA,Water Point - Borehole,TRUE
+JTBLY,Water Point,Unimproved Well,kebbi_zuru,Manual,e96225b3-f938-472c-8a7c-1088489547f2,11.5339064598083,5.19182324409485,NA,Water Point - Unimproved Well,TRUE
+EPJZF,Water Point,Unimproved Well,kebbi_zuru,Manual,030776a4-9bf1-4502-b8e1-42e2fb966090,11.26037779,5.17255171,NA,Water Point - Unimproved Well,TRUE
+JCUTQ,Water Point,Borehole,kebbi_zuru,Hand Pump,be8a69d6-a605-40c8-a004-0423d2f77bae,11.37477155,5.247921,NA,Water Point - Borehole,TRUE
+IZBQZ,Water Point,Borehole,kebbi_zuru,Hand Pump,9750b37e-341b-447c-810a-92a91b0de35d,11.49727479,5.45138092,NA,Water Point - Borehole,TRUE
+QLBUN,Water Point,Unimproved Well,kebbi_zuru,Manual,d3c7024d-62bf-4e13-ba30-c8969a9127ff,11.26751512,5.23063095,NA,Water Point - Unimproved Well,TRUE
+BHKYP,Water Point,Unimproved Well,kebbi_zuru,Manual,46943564-8a84-4135-ac0f-6e5bef1cc609,11.4279341,5.21985608,NA,Water Point - Unimproved Well,TRUE
+KBEMC,Water Point,Borehole,kebbi_zuru,Hand Pump,62a7c678-05bf-4d22-b19e-febdfc782d11,11.44467494,5.23679168,NA,Water Point - Borehole,TRUE
+SIOVM,Water Point,Unimproved Well,kebbi_zuru,Manual,a53ac4bc-ed5c-4351-ada0-3e44e3089473,11.5398502349854,5.36623120307922,NA,Water Point - Unimproved Well,TRUE
+SHYYR,Water Point,Borehole,kebbi_zuru,Diesel,34e6b7aa-8e35-4367-969d-63004793db63,11.43439011,5.2606069,NA,Water Point - Borehole,TRUE
+EUVGK,Water Point,Unimproved Well,kebbi_zuru,Manual,add56a4d-cf18-4c75-aceb-ae3a9b4d748a,11.48853138,5.42859322,NA,Water Point - Unimproved Well,TRUE
+QFOTT,Water Point,Unimproved Well,kebbi_zuru,Manual,63ce0da0-298a-4d2c-a0cd-d5107ff727fa,11.31981511,5.20271243,NA,Water Point - Unimproved Well,TRUE
+QECUY,Water Point,Borehole,kebbi_zuru,Diesel,2ba34b9d-4922-4353-a006-d620ab33b085,11.41760679,5.24511784,NA,Water Point - Borehole,TRUE
+DFTNB,Water Point,Unimproved Well,kebbi_zuru,Manual,e9e025e9-47e5-4224-abdc-3f27304cf1a5,11.315647,5.1649751,NA,Water Point - Unimproved Well,TRUE
+FJCOM,Water Point,Borehole,kebbi_zuru,Hand Pump,47424cca-a4cc-4f95-9688-9dfe4800ede3,11.44757682,5.23539079,NA,Water Point - Borehole,TRUE
+IMZVU,Water Point,Borehole,kebbi_zuru,Diesel,9830b23b-161d-4b42-adb4-ba0222cab616,11.34860686,5.26140807,NA,Water Point - Borehole,TRUE
+FVQWH,Water Point,Unimproved Well,kebbi_zuru,Manual,05682944-6057-4d6a-b51c-43fb5ebd7d66,11.44888818,5.2287095,NA,Water Point - Unimproved Well,TRUE
+XBLTT,Water Point,Unimproved Well,kebbi_zuru,Manual,6bd853b3-4b1f-461c-a741-0ddec41a942a,11.32533402,5.27334272,NA,Water Point - Unimproved Well,TRUE
+AQFOB,Water Point,Borehole,kebbi_zuru,Hand Pump,1765007f-7be7-402c-b0d1-acec02bbb850,11.3755394,5.24919305,NA,Water Point - Borehole,TRUE
+PCNJB,Water Point,Borehole,kebbi_zuru,Diesel,13cb5c42-069e-4c85-ad8c-37d9c924e351,11.3505327,5.23027845,NA,Water Point - Borehole,TRUE
+WRHLO,Water Point,Borehole,kebbi_zuru,Hand Pump,ec937df0-f6f2-46ee-9602-37f4e37769e0,11.20619265,5.16374168,NA,Water Point - Borehole,TRUE
+JOXKM,Water Point,Borehole,kebbi_zuru,Hand Pump,c4d98c4c-3eec-428f-826c-5178d8919b2f,11.44334431,5.23859157,NA,Water Point - Borehole,TRUE
+JSAKE,Water Point,Borehole,kebbi_zuru,Hand Pump,5dbb9d29-8a81-46e2-bf5d-de47b1b37770,11.37809641,5.28313128,NA,Water Point - Borehole,TRUE
+AZQJL,Water Point,Borehole,kebbi_zuru,Hand Pump,cd808287-85b9-4848-9e14-295f94fbb3f3,11.37342327,5.23309212,NA,Water Point - Borehole,TRUE
+ZFAJI,Water Point,Borehole,kebbi_zuru,Hand Pump,ed7daccf-7989-4447-8531-f94d0eb65c4f,11.6550350189209,5.48292338848114,NA,Water Point - Borehole,TRUE
+BBKKV,Water Point,Borehole,kebbi_zuru,Diesel,4e250288-b1b8-4ea9-b120-988d019a122f,11.2890917,5.2335989,NA,Water Point - Borehole,TRUE
+ERIJE,Water Point,Borehole,kebbi_zuru,Solar,30e0357f-fe09-4ec5-9484-658d75a9b79a,11.40207063,5.22367028,NA,Water Point - Borehole,TRUE
+UIAIY,Water Point,Borehole,kebbi_zuru,Hand Pump,62140a22-b772-4cc3-b3f7-da6397ef17e1,11.44908182,5.22940352,NA,Water Point - Borehole,TRUE
+IEMUJ,Water Point,Borehole,kebbi_zuru,Hand Pump,a39f83db-dd47-4771-bcdf-baff2757cc5f,11.48109082,5.41499528,NA,Water Point - Borehole,TRUE
+WHRHE,Water Point,Borehole,kebbi_zuru,Hand Pump,857a6b40-45cd-48bc-843f-beb2888bb4ef,11.46610926,5.38846269,NA,Water Point - Borehole,TRUE
+OXKND,Water Point,Borehole,kebbi_zuru,Hand Pump,6d5eb836-302d-4501-9ae4-5814e9556ce8,11.6123878955841,5.42262732982635,NA,Water Point - Borehole,TRUE
+VAYML,Water Point,Borehole,kebbi_zuru,Hand Pump,8c225e69-524d-407c-a64e-7cd653eb937e,11.5250819921494,5.17351448535919,NA,Water Point - Borehole,TRUE
+NUWJE,Water Point,Borehole,kebbi_zuru,Hand Pump,3c34cc1a-d74e-4e8d-8722-394071d1a2b6,11.40595538,5.00417201,NA,Water Point - Borehole,TRUE
+IAPON,Water Point,Borehole,kebbi_zuru,Hand Pump,0e4656b6-75e6-41a5-b103-4f0b22b5828d,11.37629209,5.23458221,NA,Water Point - Borehole,TRUE
+YRHZP,Water Point,Borehole,kebbi_zuru,Diesel,3c49eecf-f285-48aa-ae88-cef9d8c4951f,11.26731292,5.23094787,NA,Water Point - Borehole,TRUE
+ZBYYO,Water Point,Borehole,kebbi_zuru,Hand Pump,93bae29c-e3b7-4f05-8936-5fde48e53e55,11.50122103,5.48678542,NA,Water Point - Borehole,TRUE
+SPTHR,Water Point,Borehole,kebbi_zuru,Hand Pump,5be6ef14-ea12-4b5b-bf48-569a9a035d51,11.37822847,5.24882212,NA,Water Point - Borehole,TRUE
+ZXJIN,Water Point,Borehole,kebbi_zuru,Diesel,274fe763-d381-4bcf-8da8-2c69444d5b0d,11.42212885,5.24708451,NA,Water Point - Borehole,TRUE
+XCNJR,Water Point,Borehole,kebbi_zuru,Hand Pump,9d3cafff-6f7e-4ba6-b352-2920e824f9fc,11.51475479,5.45242126,NA,Water Point - Borehole,TRUE
+KXCJA,Water Point,Unimproved Well,kebbi_zuru,Manual,ea473834-aeac-4382-9359-447b80111d43,11.28047211,5.19378656,NA,Water Point - Unimproved Well,TRUE
+BRMMN,Water Point,Borehole,kebbi_zuru,Solar,962bd671-83aa-40cc-a44a-9a38943b3fec,11.3779558,5.24885147,NA,Water Point - Borehole,TRUE
+RFWAB,Water Point,Borehole,kebbi_zuru,Hand Pump,722666b0-260a-422b-a653-c82bf9290037,11.42218757,5.03374067,NA,Water Point - Borehole,TRUE
+TGICS,Water Point,Borehole,kebbi_zuru,Hand Pump,818a0327-1ed3-483a-9b0c-86bee268627c,11.34666471,5.26179066,NA,Water Point - Borehole,TRUE
+CDXSE,Water Point,Borehole,kebbi_zuru,Hand Pump,8a33124a-b679-4311-bf67-293be3d81c09,11.31375975,5.22824152,NA,Water Point - Borehole,TRUE
+WONZG,Water Point,Borehole,kebbi_zuru,Hand Pump,c6de4b30-99e7-4fc8-8e88-c78d38f44aaa,11.40083473,5.0202593,NA,Water Point - Borehole,TRUE
+RTKUP,Water Point,Unimproved Well,kebbi_zuru,Manual,a690f0c2-09bd-4c77-91fd-f545d306cbb4,11.5402954816818,5.36854326725006,NA,Water Point - Unimproved Well,TRUE
+LPEAL,Water Point,Borehole,kebbi_zuru,Hand Pump,ae6e3d20-6806-47c5-8bc3-04eb04261039,11.5398341417313,5.36372601985931,NA,Water Point - Borehole,TRUE
+AJLFS,Water Point,Unimproved Well,kebbi_zuru,Manual,bddca551-f81f-4d68-80d4-d5152434b72a,11.31383447,5.22902419,NA,Water Point - Unimproved Well,TRUE
+SWBGR,Water Point,Unimproved Well,kebbi_zuru,Manual,ac018081-2d8a-48c5-9dca-a626ffc1a270,11.3136567,5.22805769,NA,Water Point - Unimproved Well,TRUE
+QQEVV,Water Point,Borehole,kebbi_zuru,Hand Pump,21b2bd83-fc05-4d33-8e92-4f38d286a21e,11.37491033,5.24862153,NA,Water Point - Borehole,TRUE
+KESID,Water Point,Borehole,kebbi_zuru,Diesel,35791104-e0e0-4925-ae47-d90e052154b0,11.31312153,5.2047121,NA,Water Point - Borehole,TRUE
+DIJUC,Water Point,Borehole,kebbi_zuru,Diesel,0e70db1a-8906-48ea-b998-ca2ebf6d60c5,11.44863016,5.23244778,NA,Water Point - Borehole,TRUE
+HFSBJ,Water Point,Borehole,kebbi_zuru,Diesel,0ac5e738-8405-4e8f-9e62-b6824a7c7b2e,11.37630342,5.23462812,NA,Water Point - Borehole,TRUE
+KNWGM,Water Point,Borehole,kebbi_zuru,Hand Pump,473e2ff8-c3c8-4afe-a2c7-2f6f3dbf1c2a,11.3777274,5.24723527,NA,Water Point - Borehole,TRUE
+KVOCC,Water Point,Borehole,kebbi_zuru,Diesel,2d7aa943-856c-49ad-9cb6-dbdf11fda221,11.5371090173721,5.18883526325226,NA,Water Point - Borehole,TRUE
+INBXO,Water Point,Unimproved Well,kebbi_zuru,Manual,5fd00aa1-0540-48f3-bf0c-e6aca4f176ad,11.31981511,5.20271243,NA,Water Point - Unimproved Well,TRUE
+ATHAD,Water Point,Borehole,kebbi_zuru,Diesel,cbec0703-9f87-4705-9325-d400f87fb159,11.5268898010254,5.17636299133301,NA,Water Point - Borehole,TRUE
+KDQEW,Water Point,Borehole,kebbi_zuru,Hand Pump,41f94fee-479c-4ac0-8750-a966d87331b8,11.5358966588974,5.31053245067596,NA,Water Point - Borehole,TRUE
+YRAVK,Water Point,Borehole,kebbi_zuru,Diesel,f35cde81-0e49-4920-b90e-c7dcfdca37c2,11.2252585,5.16771669,NA,Water Point - Borehole,TRUE
+QQWHL,Water Point,Borehole,kebbi_zuru,Hand Pump,e77819d5-8f9f-40e8-800e-e26a095f7b17,11.34882334,5.15770363,NA,Water Point - Borehole,TRUE
+RQTUI,Water Point,Borehole,kebbi_zuru,Diesel,c2c9f315-b38b-43ec-97bb-244500a6bf4f,11.43500962,5.24091823,NA,Water Point - Borehole,TRUE
+DBBME,Water Point,Borehole,kebbi_zuru,Hand Pump,b719eb8a-2dcc-4506-b179-a4c0a1a34bd5,11.34853516,5.26146282,NA,Water Point - Borehole,TRUE
+VKCPU,Water Point,Borehole,kebbi_zuru,Hand Pump,364abfc9-05d4-4d67-bbfb-b785d5c6bdde,11.48694463,5.34433559,NA,Water Point - Borehole,TRUE
+VTEJB,Water Point,Unimproved Well,kebbi_zuru,Manual,1ad10ae3-a60a-4807-98c9-af9cb9b45b4f,11.40060895,5.22448315,NA,Water Point - Unimproved Well,TRUE
+PXDMA,Water Point,Borehole,kebbi_zuru,Hand Pump,f9d96062-3b2c-4e8f-964b-15990e1cb0a9,11.5177541971207,5.22558689117432,NA,Water Point - Borehole,TRUE
+GVOPT,Water Point,Unimproved Well,kebbi_zuru,Manual,4a7863e1-bb9d-4f92-bf64-f31573980968,11.518719792366,5.27643620967865,NA,Water Point - Unimproved Well,TRUE
+OYQLC,Water Point,Borehole,kebbi_zuru,Hand Pump,73704fff-c0e5-482a-a4ea-eb7869471d7e,11.42814936,5.2479504,NA,Water Point - Borehole,TRUE
+DKKQM,Water Point,Unimproved Well,kebbi_zuru,Manual,95db52af-58c6-4b61-846c-3e96bae2dda8,11.44087434,5.22829493,NA,Water Point - Unimproved Well,TRUE
+KSKVI,Water Point,Borehole,kebbi_zuru,Hand Pump,d7eeb60d-1a30-4fd0-b7f6-ed5899e26f2b,11.535816192627,5.31058073043823,NA,Water Point - Borehole,TRUE
+NMYQJ,Water Point,Borehole,kebbi_zuru,Hand Pump,75b048ec-3ef0-4413-9991-9f9944526782,11.37372087,5.29358446,NA,Water Point - Borehole,TRUE
+GNPFK,Water Point,Unimproved Well,kebbi_zuru,Manual,adc7e612-676e-4b4d-8757-e2c80c3ace1c,11.35017955,5.2920454,NA,Water Point - Unimproved Well,TRUE
+ADHIU,Water Point,Borehole,kebbi_zuru,Solar,620970eb-eeeb-4fd3-94ec-7ca8c615ce29,11.5359717607498,5.18977403640747,NA,Water Point - Borehole,TRUE
+XQSWC,Water Point,Borehole,kebbi_zuru,Hand Pump,e31a360d-0324-4c2a-88eb-3554874dd308,11.5364760160446,5.18899619579315,NA,Water Point - Borehole,TRUE
+KEOXQ,Water Point,Borehole,kebbi_zuru,Hand Pump,1bea3c20-8ef5-4064-8894-e4fe1d1e2bf1,11.28879194,5.23356538,NA,Water Point - Borehole,TRUE
+FLYEB,Water Point,Borehole,kebbi_zuru,Diesel,224b82d8-81fc-4baf-b373-f734ca79d7b4,11.41854164,5.23763086,NA,Water Point - Borehole,TRUE
+UZWDS,Water Point,Borehole,kebbi_zuru,Hand Pump,73e4cf83-f2ff-4a9e-aa34-8102549dd5b2,11.44829191,5.23137473,NA,Water Point - Borehole,TRUE
+KAHVJ,Water Point,Borehole,kebbi_zuru,Diesel,966022e8-6747-47c0-a7c3-8fba67fdbe98,11.43861041,5.22873133,NA,Water Point - Borehole,TRUE
+KTVTL,Water Point,Borehole,kebbi_zuru,Hand Pump,ac34ed16-03bc-46f4-98fe-64f0684bb675,11.22523755,5.1677313,NA,Water Point - Borehole,TRUE

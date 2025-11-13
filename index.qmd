@@ -1,0 +1,100 @@
+---
+title: "index.qmd"
+format: html
+editor: visual
+---
+
+## Project description
+
+A rigorous, geo-referenced baseline facility inventory across Nigeria is created spanning from 2009 to 2011 with an additional survey effort to increase coverage in 2014, to build Nigeria’s first nation-wide inventory of water facility. The database includes 132,510 water facilities info in Nigeria.
+
+```{r}
+library(tidyverse)
+library(here)
+```
+
+## ... continuation
+
+The goal of this database is to make the data collected available to planners, government officials, and the public, to be used to make strategic decisions for planning relevant interventions.
+
+```{r}
+read_csv(here::here("data/raw/watermopupandbaselinenmisfacility.csv"))
+```
+
+Write code to bring your data into a state where it’s ready for analysis.
+
+```{r}
+# Step 0: Load raw data
+raw_data <- read_csv(here::here("data/raw/watermopupandbaselinenmisfacility.csv"))
+
+# Step 1: Rename columns (simplify names)
+clean_data <- raw_data %>%
+  rename(
+    id = facility_id,
+    name = facility_name,
+    water_type = water_point_type,
+    lga = unique_lga,
+    pump_type = lift_mechanism,
+    survey = survey_id,
+    lat = latitude,
+    long = longitude
+  )
+
+# Step 2: Select relevant columns
+clean_data <- clean_data %>%
+  select(id, name, water_type, lga, pump_type, survey, lat, long)
+
+# Step 3: Remove missing values
+clean_data <- clean_data %>%
+  drop_na(id, name, water_type, lga, pump_type, lat, long)
+
+# Step 4: (Simulate a join using a small internal lookup table)
+# Example — categorizing pump types into “manual” vs “mechanized”
+pump_lookup <- tibble(
+  pump_type = c("handpump", "electric_pump", "solar_pump", "motorized"),
+  pump_category = c("manual", "mechanized", "mechanized", "mechanized")
+)
+
+clean_data <- clean_data %>%
+  left_join(pump_lookup, by = "pump_type")
+
+# Step 5: Create new variables
+clean_data <- clean_data %>%
+  mutate(
+    facility_label = paste(name, "-", water_type),
+    valid_location = if_else(
+      lat >= -90 & lat <= 90 & long >= -180 & long <= 180,
+      TRUE, FALSE
+    )
+  )
+
+# Filter data for kebbi_zuru LGA
+kebbi_zuru_data <- clean_data %>%
+  filter(lga == "kebbi_zuru")
+
+# View the cleaned dataset
+glimpse(kebbi_zuru_data)
+
+# Optionally, save the cleaned subset
+write_csv(kebbi_zuru_data, here::here("data/processed/kebbi_zuru_cleaned.csv"))
+```
+
+Once you have your data in a state where it’s ready for analysis, save it as a CSV file in the `data/processed` folder
+
+```{r}
+
+write_csv(kebbi_zuru_data,
+          here::here("data/processed/genesis_data.csv"))
+```
+
+You can add options to executable code like this
+
+```{r}
+
+```
+
+You can add options to executable code like this
+
+```{r}
+
+```
