@@ -1,0 +1,126 @@
+---
+---
+title: "Kebbi Zuru Water Mop-Up Facility Report"
+author: "YOUR NAME"
+date: "2025-12-16"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+execute:
+  warning: false
+  echo: true
+bibliography: bibliography.bib
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(gt)
+library(scales)
+```
+
+# **Introduction**
+
+This report summarizes facility-level survey data from the Water Mop-Up and Baseline NMIS Facility dataset, focusing on records from the **Kebbi Zuru** area. The dataset documents facility attributes such as water point type, lift mechanism, and geographic coordinates to support monitoring and planning. Exploring these indicators helps identify patterns in infrastructure and data quality for decision-making. The analysis follows reproducible data science practices[@ahmed2023; @yahaya2022].
+
+# **Methods**
+
+The raw facility survey CSV was imported from the data/raw folder and cleaned into an analysis-ready dataset saved in the data/processed folder. Cleaning included renaming variables for clarity, selecting relevant fields, removing missing values for key variables, and creating derived fields such as a facility label and a location validity check. A small lookup table was joined to classify lift mechanisms into broader pump categories. Summary statistics and visualizations were produced using standard exploratory analysis and visualization principles[@victor2025].
+
+## Results
+
+```{r}
+#| label: load-data
+
+facilities_df <- read_csv(
+  "data/processed/kebbi_zuru_cleaned.csv",
+  show_col_types = FALSE
+)
+```
+
+## **Summary statistics table**
+
+```{r}
+#| label: tbl-summary
+#| tbl-cap: "Summary statistics for coordinates and facility counts in the Kebbi Zuru processed dataset."
+
+summary_tbl <- facilities_df %>%
+  summarise(
+    facility_count = n(),
+    mean_latitude = mean(lat, na.rm = TRUE),
+    median_latitude = median(lat, na.rm = TRUE),
+    sd_latitude = sd(lat, na.rm = TRUE),
+    mean_longitude = mean(long, na.rm = TRUE),
+    median_longitude = median(long, na.rm = TRUE),
+    sd_longitude = sd(long, na.rm = TRUE),
+    valid_location_rate = mean(valid_location, na.rm = TRUE)
+  )
+
+gt(summary_tbl) %>%
+  fmt_number(columns = c(mean_latitude, median_latitude, sd_latitude,
+                         mean_longitude, median_longitude, sd_longitude),
+             decimals = 4) %>%
+  fmt_percent(columns = valid_location_rate, decimals = 1)
+```
+
+Table \@tbl-summary shows the number of facilities included in the Kebbi Zuru subset and summarizes the central tendency and variation of the geographic coordinates. The valid location rate indicates whether coordinates fall within plausible latitude/longitude ranges, which provides a quick check of spatial data quality.
+
+## **Figure 1: Water point type distribution**
+
+```{r}
+#| label: fig-water-type
+#| fig-cap: "Counts of facilities by water point type in the Kebbi Zuru subset."
+
+facilities_df %>%
+  count(water_type) %>%
+  ggplot(aes(x = reorder(water_type, n), y = n)) +
+  geom_col() +
+  coord_flip() +
+  scale_y_continuous(labels = comma) +
+  labs(
+    x = "Water point type",
+    y = "Number of facilities"
+  )
+```
+
+Figure \@fig-water-type highlights which water point types are most common in the dataset. The axis scaling uses comma formatting to improve readability when counts are large, and the flipped coordinates make category labels easier to read.
+
+## **Figure 2: Pump category by water type**
+
+```{r}
+#| label: fig-pump-category
+#| fig-cap: "Facility counts by pump category, grouped by water point type."
+
+facilities_df %>%
+  mutate(pump_category = if_else(is.na(pump_category), "unclassified", pump_category)) %>%
+  count(water_type, pump_category) %>%
+  ggplot(aes(x = water_type, y = n, fill = pump_category)) +
+  geom_col(position = "dodge") +
+  scale_y_continuous(labels = comma) +
+  scale_fill_discrete(name = "Pump category") +
+  labs(
+    x = "Water point type",
+    y = "Number of facilities"
+  )
+```
+
+Figure \@fig-pump-category compares how lift mechanism categories (manual vs mechanized vs unclassified) vary across water point types. The color scale and legend title make categories human-readable, while the scaled y-axis improves interpretation of facility counts.
+
+# **Conclusions**
+
+-   The Kebbi Zuru subset contains a defined number of facilities, and coordinate summaries suggest the overall spatial spread of the records[@namadiz.a.2024].
+
+-   Water point types are not evenly distributed; some types appear substantially more common than others.
+
+-   Pump categories show variation by water point type, and any “unclassified” records indicate lift mechanisms that may need cleanup or expanded mapping.
+
+# **References**
+
+```{r}
+
+```
