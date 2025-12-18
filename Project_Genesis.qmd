@@ -1,8 +1,8 @@
 ---
 ---
 title: "Kebbi Zuru Water Mop-Up Facility Report"
-author: "YOUR NAME"
-date: "2025-12-16"
+author: "Big-Gen"
+date: "2025-12-18"
 format:
   html:
     toc: true
@@ -32,7 +32,7 @@ This report summarizes facility-level survey data from the Water Mop-Up and Base
 
 The raw facility survey CSV was imported from the data/raw folder and cleaned into an analysis-ready dataset saved in the data/processed folder. Cleaning included renaming variables for clarity, selecting relevant fields, removing missing values for key variables, and creating derived fields such as a facility label and a location validity check. A small lookup table was joined to classify lift mechanisms into broader pump categories. Summary statistics and visualizations were produced using standard exploratory analysis and visualization principles[@victor2025].
 
-## Results
+# **Results**
 
 ```{r}
 #| label: load-data

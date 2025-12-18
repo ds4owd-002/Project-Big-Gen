@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="YOUR NAME">
-<meta name="dcterms.date" content="2025-12-16">
+<meta name="author" content="Big-Gen">
+<meta name="dcterms.date" content="2025-12-18">
 
 <title>Kebbi Zuru Water Mop-Up Facility Report</title>
 <style>
@@ -88,7 +88,7 @@ div.csl-indent {
 <script src="Project_Genesis_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="Project_Genesis_files/libs/quarto-html/anchor.min.js"></script>
 <link href="Project_Genesis_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="Project_Genesis_files/libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="Project_Genesis_files/libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="Project_Genesis_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="Project_Genesis_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="Project_Genesis_files/libs/bootstrap/bootstrap-6a8e6d95bfcd174082ff54166b04dcf7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -105,9 +105,9 @@ div.csl-indent {
    
   <ul class="collapse">
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><strong>Introduction</strong></a></li>
-  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods"><strong>Methods</strong></a>
+  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods"><strong>Methods</strong></a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results"><strong>Results</strong></a>
   <ul class="collapse">
-  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
   <li><a href="#summary-statistics-table" id="toc-summary-statistics-table" class="nav-link" data-scroll-target="#summary-statistics-table"><strong>Summary statistics table</strong></a></li>
   <li><a href="#figure-1-water-point-type-distribution" id="toc-figure-1-water-point-type-distribution" class="nav-link" data-scroll-target="#figure-1-water-point-type-distribution"><strong>Figure 1: Water point type distribution</strong></a></li>
   <li><a href="#figure-2-pump-category-by-water-type" id="toc-figure-2-pump-category-by-water-type" class="nav-link" data-scroll-target="#figure-2-pump-category-by-water-type"><strong>Figure 2: Pump category by water type</strong></a></li>
@@ -131,14 +131,14 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>YOUR NAME </p>
+             <p>Big-Gen </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 16, 2025</p>
+      <p class="date">December 18, 2025</p>
     </div>
   </div>
   
@@ -150,7 +150,7 @@ div.csl-indent {
 </header>
 
 
-<p>title: “Kebbi Zuru Water Mop-Up Facility Report” author: “YOUR NAME” date: “2025-12-16” format: html: toc: true toc-depth: 2 execute: warning: false echo: true bibliography: bibliography.bib —</p>
+<p>title: “Kebbi Zuru Water Mop-Up Facility Report” author: “Big-Gen” date: “2025-12-18” format: html: toc: true toc-depth: 2 execute: warning: false echo: true bibliography: bibliography.bib —</p>
 <section id="introduction" class="level1">
 <h1><strong>Introduction</strong></h1>
 <p>This report summarizes facility-level survey data from the Water Mop-Up and Baseline NMIS Facility dataset, focusing on records from the <strong>Kebbi Zuru</strong> area. The dataset documents facility attributes such as water point type, lift mechanism, and geographic coordinates to support monitoring and planning. Exploring these indicators helps identify patterns in infrastructure and data quality for decision-making. The analysis follows reproducible data science practices<span class="citation" data-cites="ahmed2023 yahaya2022">(<a href="#ref-ahmed2023" role="doc-biblioref">Ahmed et al. 2023</a>; <a href="#ref-yahaya2022" role="doc-biblioref">Yahaya et al. 2022</a>)</span>.</p>
@@ -158,15 +158,15 @@ div.csl-indent {
 <section id="methods" class="level1">
 <h1><strong>Methods</strong></h1>
 <p>The raw facility survey CSV was imported from the data/raw folder and cleaned into an analysis-ready dataset saved in the data/processed folder. Cleaning included renaming variables for clarity, selecting relevant fields, removing missing values for key variables, and creating derived fields such as a facility label and a location validity check. A small lookup table was joined to classify lift mechanisms into broader pump categories. Summary statistics and visualizations were produced using standard exploratory analysis and visualization principles<span class="citation" data-cites="victor2025">(<a href="#ref-victor2025" role="doc-biblioref">Victor et al. 2025</a>)</span>.</p>
-<section id="results" class="level2">
-<h2 class="anchored" data-anchor-id="results">Results</h2>
+</section>
+<section id="results" class="level1">
+<h1><strong>Results</strong></h1>
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>facilities_df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">"data/processed/kebbi_zuru_cleaned.csv"</span>,</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">show_col_types =</span> <span class="cn">FALSE</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-</section>
 <section id="summary-statistics-table" class="level2">
 <h2 class="anchored" data-anchor-id="summary-statistics-table"><strong>Summary statistics table</strong></h2>
 <div class="cell">
@@ -194,23 +194,23 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
 </figcaption>
 <div aria-describedby="tbl-summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="dvgpyvjrak" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#dvgpyvjrak table {
+<div id="cvlzikclag" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#cvlzikclag table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#dvgpyvjrak thead, #dvgpyvjrak tbody, #dvgpyvjrak tfoot, #dvgpyvjrak tr, #dvgpyvjrak td, #dvgpyvjrak th {
+#cvlzikclag thead, #cvlzikclag tbody, #cvlzikclag tfoot, #cvlzikclag tr, #cvlzikclag td, #cvlzikclag th {
   border-style: none;
 }
 
-#dvgpyvjrak p {
+#cvlzikclag p {
   margin: 0;
   padding: 0;
 }
 
-#dvgpyvjrak .gt_table {
+#cvlzikclag .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -236,12 +236,12 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   border-left-color: #D3D3D3;
 }
 
-#dvgpyvjrak .gt_caption {
+#cvlzikclag .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#dvgpyvjrak .gt_title {
+#cvlzikclag .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -253,7 +253,7 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   border-bottom-width: 0;
 }
 
-#dvgpyvjrak .gt_subtitle {
+#cvlzikclag .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -265,7 +265,7 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   border-top-width: 0;
 }
 
-#dvgpyvjrak .gt_heading {
+#cvlzikclag .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -277,13 +277,13 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   border-right-color: #D3D3D3;
 }
 
-#dvgpyvjrak .gt_bottom_border {
+#cvlzikclag .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#dvgpyvjrak .gt_col_headings {
+#cvlzikclag .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -298,7 +298,7 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   border-right-color: #D3D3D3;
 }
 
-#dvgpyvjrak .gt_col_heading {
+#cvlzikclag .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -318,7 +318,7 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   overflow-x: hidden;
 }
 
-#dvgpyvjrak .gt_column_spanner_outer {
+#cvlzikclag .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -330,15 +330,15 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   padding-right: 4px;
 }
 
-#dvgpyvjrak .gt_column_spanner_outer:first-child {
+#cvlzikclag .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#dvgpyvjrak .gt_column_spanner_outer:last-child {
+#cvlzikclag .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#dvgpyvjrak .gt_column_spanner {
+#cvlzikclag .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -350,11 +350,11 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   width: 100%;
 }
 
-#dvgpyvjrak .gt_spanner_row {
+#cvlzikclag .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#dvgpyvjrak .gt_group_heading {
+#cvlzikclag .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -380,7 +380,7 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   text-align: left;
 }
 
-#dvgpyvjrak .gt_empty_group_heading {
+#cvlzikclag .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -395,15 +395,15 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   vertical-align: middle;
 }
 
-#dvgpyvjrak .gt_from_md > :first-child {
+#cvlzikclag .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#dvgpyvjrak .gt_from_md > :last-child {
+#cvlzikclag .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#dvgpyvjrak .gt_row {
+#cvlzikclag .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -422,7 +422,7 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   overflow-x: hidden;
 }
 
-#dvgpyvjrak .gt_stub {
+#cvlzikclag .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -435,7 +435,7 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   padding-right: 5px;
 }
 
-#dvgpyvjrak .gt_stub_row_group {
+#cvlzikclag .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -449,15 +449,15 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   vertical-align: top;
 }
 
-#dvgpyvjrak .gt_row_group_first td {
+#cvlzikclag .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#dvgpyvjrak .gt_row_group_first th {
+#cvlzikclag .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#dvgpyvjrak .gt_summary_row {
+#cvlzikclag .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -467,16 +467,16 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   padding-right: 5px;
 }
 
-#dvgpyvjrak .gt_first_summary_row {
+#cvlzikclag .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#dvgpyvjrak .gt_first_summary_row.thick {
+#cvlzikclag .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#dvgpyvjrak .gt_last_summary_row {
+#cvlzikclag .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -486,7 +486,7 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   border-bottom-color: #D3D3D3;
 }
 
-#dvgpyvjrak .gt_grand_summary_row {
+#cvlzikclag .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -496,7 +496,7 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   padding-right: 5px;
 }
 
-#dvgpyvjrak .gt_first_grand_summary_row {
+#cvlzikclag .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -506,7 +506,7 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   border-top-color: #D3D3D3;
 }
 
-#dvgpyvjrak .gt_last_grand_summary_row_top {
+#cvlzikclag .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -516,11 +516,11 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   border-bottom-color: #D3D3D3;
 }
 
-#dvgpyvjrak .gt_striped {
+#cvlzikclag .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#dvgpyvjrak .gt_table_body {
+#cvlzikclag .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -529,7 +529,7 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   border-bottom-color: #D3D3D3;
 }
 
-#dvgpyvjrak .gt_footnotes {
+#cvlzikclag .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -543,7 +543,7 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   border-right-color: #D3D3D3;
 }
 
-#dvgpyvjrak .gt_footnote {
+#cvlzikclag .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -552,7 +552,7 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   padding-right: 5px;
 }
 
-#dvgpyvjrak .gt_sourcenotes {
+#cvlzikclag .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -566,7 +566,7 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   border-right-color: #D3D3D3;
 }
 
-#dvgpyvjrak .gt_sourcenote {
+#cvlzikclag .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -574,72 +574,72 @@ Table&nbsp;1: Summary statistics for coordinates and facility counts in the Kebb
   padding-right: 5px;
 }
 
-#dvgpyvjrak .gt_left {
+#cvlzikclag .gt_left {
   text-align: left;
 }
 
-#dvgpyvjrak .gt_center {
+#cvlzikclag .gt_center {
   text-align: center;
 }
 
-#dvgpyvjrak .gt_right {
+#cvlzikclag .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#dvgpyvjrak .gt_font_normal {
+#cvlzikclag .gt_font_normal {
   font-weight: normal;
 }
 
-#dvgpyvjrak .gt_font_bold {
+#cvlzikclag .gt_font_bold {
   font-weight: bold;
 }
 
-#dvgpyvjrak .gt_font_italic {
+#cvlzikclag .gt_font_italic {
   font-style: italic;
 }
 
-#dvgpyvjrak .gt_super {
+#cvlzikclag .gt_super {
   font-size: 65%;
 }
 
-#dvgpyvjrak .gt_footnote_marks {
+#cvlzikclag .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#dvgpyvjrak .gt_asterisk {
+#cvlzikclag .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#dvgpyvjrak .gt_indent_1 {
+#cvlzikclag .gt_indent_1 {
   text-indent: 5px;
 }
 
-#dvgpyvjrak .gt_indent_2 {
+#cvlzikclag .gt_indent_2 {
   text-indent: 10px;
 }
 
-#dvgpyvjrak .gt_indent_3 {
+#cvlzikclag .gt_indent_3 {
   text-indent: 15px;
 }
 
-#dvgpyvjrak .gt_indent_4 {
+#cvlzikclag .gt_indent_4 {
   text-indent: 20px;
 }
 
-#dvgpyvjrak .gt_indent_5 {
+#cvlzikclag .gt_indent_5 {
   text-indent: 25px;
 }
 
-#dvgpyvjrak .katex-display {
+#cvlzikclag .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#dvgpyvjrak div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#cvlzikclag div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
